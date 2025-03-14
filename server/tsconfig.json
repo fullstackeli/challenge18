@@ -1,0 +1,16 @@
+{
+  "compilerOptions": {
+    "module": "ESNext",
+    "target": "ESNext",
+    "esModuleInterop": true,                     /* Allows default imports from modules with export = */
+    "allowSyntheticDefaultImports": true,        /* Allows synthetic default imports for modules with export = */
+    "skipLibCheck": true,
+    "strict": true,
+    "moduleResolution": "node",
+    "rootDir": "src",
+    "outDir": "dist",
+    "noEmitOnError": true
+  },
+  "include": ["src"],
+  "typeRoots": ["./node_modules/@types", "./src/types"]
+}
